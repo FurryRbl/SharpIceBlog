@@ -1,0 +1,24 @@
+name: Check
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  Check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 迁出文件
+        uses: actions/checkout@v3
+
+      - name: 获取NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 检查依赖
+        run: yarn
+
+      - name: 检查构建项目
+        run: yarn build
+
