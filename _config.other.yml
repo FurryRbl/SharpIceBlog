@@ -20,4 +20,21 @@ baidusitemap:
     path: baidusitemap.xml
 sitemap:
     path: sitemap.xml
+clean_css:
+  exclude: 
+    - '*.min.css'
+filter_optimize:
+  enable: true
+  remove_comments: false
+  css:
+    minify: true
+    bundle: true
+    delivery: true
+    inlines:
+    excludes:
+  js:
+    minify: true
+    bundle: true
+    excludes:
+  priority: 12
 
