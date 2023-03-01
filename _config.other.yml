@@ -16,4 +16,8 @@ neat_js:
     - '**/*.min.js'
     - '**/jquery.fancybox.pack.js'
     - '**/index.js'
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
 
