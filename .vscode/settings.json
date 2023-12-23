@@ -1,0 +1,7 @@
+{
+	"editor.formatOnSave": true,
+	"yaml.schemaStore.enable": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	}
+}

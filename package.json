@@ -1,0 +1,61 @@
+{
+	"name": "sharpice_site",
+	"version": "1.0.0",
+	"description": "SharpIce 个人站点",
+	"type": "module",
+	"license": "MPL-2.0",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FurryRbl/SharpIceSite.git"
+	},
+	"homepage": "https://github.com/FurryRbl/SharpIceSite",
+	"bugs": {
+		"url": "https://github.com/FurryRbl/SharpIceSite/issues"
+	},
+	"author": {
+		"name": "SharpIce",
+		"email": "VupRbl@163.com",
+		"url": "https://SharpIce.top"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"hexo": {
+		"version": "7.0.0"
+	},
+	"scripts": {
+		"lint": "eslint --fix .",
+		"pre": "prettier . --write",
+		"build": "hexo generate",
+		"clean": "hexo clean",
+		"dev": "hexo server"
+	},
+	"devDependencies": {
+		"eslint": "^8.48.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"hexo-cli": "^4.3.1",
+		"prettier": "^3.0.2"
+	},
+	"dependencies": {
+		"hexo": "^7.0.0",
+		"hexo-browsersync": "^0.3.0",
+		"hexo-clean-css": "^2.0.0",
+		"hexo-generator-archive": "^2.0.0",
+		"hexo-generator-category": "^2.0.0",
+		"hexo-generator-feed": "^3.0.0",
+		"hexo-generator-index": "^3.0.0",
+		"hexo-generator-search": "^2.4.3",
+		"hexo-generator-sitemap": "^3.0.1",
+		"hexo-generator-tag": "^2.0.0",
+		"hexo-html-minifier": "^1.0.0",
+		"hexo-renderer-ejs": "^2.0.0",
+		"hexo-renderer-marked": "^6.0.0",
+		"hexo-renderer-stylus": "^3.0.0",
+		"hexo-server": "^3.0.0",
+		"hexo-theme-anzhiyu": "^1.6.11",
+		"hexo-uglify": "^2.0.0",
+		"hexo-wordcount": "^6.0.1"
+	}
+}

@@ -1,0 +1,15 @@
+- class_name: 小伙伴
+  class_desc: 那些人，那些事
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+      - name: Koto
+        link: https://koto.cc/
+        avatar: /link/assets/avatar/Kato.webp
+        descr:
+        recommend: false
+      - name: 中二蘑菇
+        link: https://imfurry.com/
+        avatar: /link/assets/avatar/zebwqfox.webp
+        descr:
+        recommend: false

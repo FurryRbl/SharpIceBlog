@@ -1,0 +1,150 @@
+# 网站
+title: 锐冰龙的小窝
+subtitle: ""
+description: "锐冰龙温馨的小窝~"
+keywords: SharpIce,FurryRbl,Furry,Blog,锐冰龙,锐冰,博客,个人博客,小窝,温馨的小窝
+author: SharpIce
+language: zh-CN
+timezone: "Asia/Shanghai"
+email: "VupRbl@163.com"
+
+# 网址
+url: https://sharpice.top
+root: /
+permalink: post/:title/
+permalink_defaults:
+pretty_urls:
+    trailing_index: false
+    trailing_html: false
+
+# 目录
+source_dir: public
+public_dir: build
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 文章
+new_post_name: :title.md
+default_layout: post
+auto_spacing: true
+titlecase: false
+external_link:
+    enable: true
+    field: site
+    exclude: ""
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+    enable: false
+    line_number: true
+    auto_detect: false
+    tab_replace: ""
+    wrap: true
+    hljs: false
+prismjs:
+    enable: true
+    preprocess: true
+    line_number: true
+    line_threshold: 0
+    tab_replace: ""
+
+# 分类 & 标签
+default_category: 未分类
+category_map:
+tag_map:
+
+# 日期 / 时间格式
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: "mtime"
+
+# 分页
+per_page: 10
+pagination_dir: page
+
+# 扩展
+theme: anzhiyu
+theme_config:
+deploy:
+    type: ""
+meta_generator: true
+
+# 包括或不包括目录和文件
+include:
+exclude:
+ignore:
+
+########## 插件 ##########
+# 首页生成
+index_generator:
+    path: ""
+    per_page: 10
+    order_by: -date
+
+# 搜索
+search:
+    path: search.xml
+    field: all
+    content: true
+    template:
+
+# 站点地图
+sitemap:
+    path:
+        - sitemap.xml
+    template:
+    template_txt:
+    rel: true
+    tags: true
+    categories: true
+
+# RSS 订阅
+feed:
+    enable: true
+    type:
+        - atom
+        - rss2
+    path:
+        - atom.xml
+        - rss2.xml
+    limit: false
+    hub:
+    content: true
+    content_limit: 256
+    content_limit_delim: " "
+    order_by: -date
+    icon: favicon.png
+    autodiscovery: true
+    template:
+
+# JS 压缩
+uglify:
+    mangle: true
+    output:
+    compress:
+    exclude:
+        - "*.min.js"
+
+# CSS 清理
+clean_css:
+    exclude:
+        - "*.min.css"
+
+# HTML 压缩
+html_minifier:
+    collapseBooleanAttributes: true
+    collapseWhitespace: true
+    ignoreCustomComments:
+    removeComments: true
+    removeEmptyAttributes: true
+    removeScriptTypeAttributes: true
+    removeStyleLinkTypeAttributes: true
+    minifyJS: true
+    minifyCSS: true
