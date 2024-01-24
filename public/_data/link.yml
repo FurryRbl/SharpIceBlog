@@ -1,5 +1,5 @@
-- class_name: 小伙伴
-  class_desc: 那些人，那些事
+- class_name: 好朋友
+  class_desc: 都是好朋友！
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
@@ -11,5 +11,10 @@
       - name: 中二蘑菇
         link: https://imfurry.com/
         avatar: /link/assets/avatar/zebwqfox.webp
+        descr:
+        recommend: false
+      - name: 澪度
+        link: https://www.0du.top/
+        avatar: /link/assets/avatar/0du.webp
         descr:
         recommend: false
