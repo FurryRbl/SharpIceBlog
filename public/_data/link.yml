@@ -18,3 +18,8 @@
         avatar: /link/assets/avatar/0du.webp
         descr:
         recommend: false
+      - name: 迷失的小K
+        link: https://blog.kclub.tech/
+        avatar: /link/assets/avatar/kclub.webp
+        descr:
+        recommend: false
