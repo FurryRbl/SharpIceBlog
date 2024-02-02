@@ -1,25 +1,33 @@
-- class_name: 好朋友
-  class_desc: 都是好朋友！
+- class_name: 朋友
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
       - name: Koto
         link: https://koto.cc/
         avatar: /link/assets/avatar/Kato.webp
-        descr:
+        descr: "kobe koto's personal site, splash page, tool or more."
         recommend: false
-      - name: 中二蘑菇
+      - name: 中二蘑菇狐狸
         link: https://imfurry.com/
         avatar: /link/assets/avatar/zebwqfox.webp
-        descr:
+        descr: "沙雕up的博客杰作"
         recommend: false
       - name: 澪度
         link: https://www.0du.top/
         avatar: /link/assets/avatar/0du.webp
-        descr:
+        descr: "福瑞控,音游批，成分也很杂。"
         recommend: false
       - name: 迷失的小K
         link: https://blog.kclub.tech/
         avatar: /link/assets/avatar/kclub.webp
-        descr:
+        descr: "一同畅游代码的海洋，感受极客世界的无限可能。"
+        recommend: false
+- class_name: 站点
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+      - name: 应龙笔记
+        link: https://www.silverdragon.cn/?link=https://sharpice.top
+        avatar: /link/assets/avatar/silverdragon.webp
+        descr: "应龙笔记是一个专注于知识分享的网站"
         recommend: false
