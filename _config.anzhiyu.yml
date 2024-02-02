@@ -1,5 +1,6 @@
 ########## 导航配置 ##########
 menu:
+    首页: / || anzhiyu-icon-home
     文章: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
