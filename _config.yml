@@ -148,3 +148,7 @@ html_minifier:
     removeStyleLinkTypeAttributes: true
     minifyJS: true
     minifyCSS: true
+
+# hexo-browsersync 插件
+browsersync:
+    ui: false
