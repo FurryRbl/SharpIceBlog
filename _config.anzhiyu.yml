@@ -154,8 +154,8 @@ toc:
     post: true
     page: false
     number: true
-    expand: false
-    style_simple: false
+    expand: true
+    style_simple: true
 
 post_copyright:
     enable: true
@@ -176,6 +176,9 @@ reward:
         - img: /icon/afdian.png
           link: https://afdian.net/@SharpIce
           text: 爱发电
+        - img: /icon/afdian.png
+          link: https://afdian.net/@SharpIce
+          text: 爱发电
 
 ########## 文章编辑按钮 ##########
 post_edit:
@@ -186,7 +189,7 @@ post_edit:
 
 ########## 相关文章 ##########
 related_post:
-    enable: true
+    enable: false
     limit: 10
     date_type: created
 
@@ -207,7 +210,7 @@ noticeOutdate:
 
 ########## 分享 ##########
 sharejs:
-    enable: true
+    enable: false
     sites: facebook,twitter,wechat,weibo,qq
 
 addtoany:

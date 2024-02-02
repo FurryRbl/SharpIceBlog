@@ -152,3 +152,32 @@ html_minifier:
 # hexo-browsersync 插件
 browsersync:
     ui: false
+
+# hexo-renderer-marked 插件
+markdown:
+    preset: "default"
+    render:
+        html: true
+        xhtmlOut: false
+        langPrefix: "language-"
+        breaks: true
+        linkify: true
+        typographer: true
+        quotes: "“”‘’"
+    enable_rules:
+    disable_rules:
+    plugins:
+    anchors:
+        level: 2
+        collisionSuffix: ""
+        permalink: false
+        permalinkClass: "header-anchor"
+        permalinkSide: "left"
+        permalinkSymbol: "¶"
+        case: 0
+        separator: "-"
+    images:
+        lazyload: false
+        prepend_root: false
+        post_asset: false
+    inline: false # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
