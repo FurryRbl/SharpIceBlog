@@ -1,6 +1,4 @@
 - class_name: 朋友
-  flink_style: anzhiyu
-  hundredSuffix: ""
   link_list:
       - name: Koto
         link: https://koto.cc/
@@ -23,8 +21,6 @@
         descr: "一同畅游代码的海洋，感受极客世界的无限可能。"
         recommend: false
 - class_name: 站点
-  flink_style: anzhiyu
-  hundredSuffix: ""
   link_list:
       - name: 应龙笔记
         link: https://www.silverdragon.cn/?link=https://sharpice.top

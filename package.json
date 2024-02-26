@@ -32,15 +32,17 @@
 		"dev": "hexo server"
 	},
 	"devDependencies": {
-		"eslint": "^8.48.0",
+		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
 		"hexo-cli": "^4.3.1",
-		"prettier": "^3.0.2"
+		"html-minifier-terser": "^7.2.0",
+		"prettier": "^3.2.5"
 	},
 	"dependencies": {
 		"hexo": "^7.0.0",
 		"hexo-browsersync": "^0.3.0",
+		"hexo-butterfly-extjs": "^1.4.10",
 		"hexo-clean-css": "^2.0.0",
 		"hexo-generator-archive": "^2.0.0",
 		"hexo-generator-category": "^2.0.0",
@@ -49,12 +51,11 @@
 		"hexo-generator-search": "^2.4.3",
 		"hexo-generator-sitemap": "^3.0.1",
 		"hexo-generator-tag": "^2.0.0",
-		"hexo-html-minifier": "^1.0.0",
-		"hexo-renderer-ejs": "^2.0.0",
 		"hexo-renderer-markdown-it": "^7.1.1",
-		"hexo-renderer-stylus": "^3.0.0",
+		"hexo-renderer-pug": "^3.0.0",
+		"hexo-renderer-stylus": "^3.0.1",
 		"hexo-server": "^3.0.0",
-		"hexo-theme-anzhiyu": "^1.6.11",
+		"hexo-theme-butterfly": "^4.13.0",
 		"hexo-uglify": "^2.0.0",
 		"hexo-wordcount": "^6.0.1"
 	}

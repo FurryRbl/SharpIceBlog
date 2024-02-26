@@ -12,9 +12,9 @@
 			}
 		},
 		{
-			"files": "*.html",
+			"files": "*.md",
 			"options": {
-				"printWidth": 200
+				"useTabs": false
 			}
 		}
 	]
