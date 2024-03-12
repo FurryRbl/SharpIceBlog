@@ -1,4 +1,4 @@
-- class_name: 朋友
+- class_name: 朋友们
   link_list:
       - name: Koto
         link: https://koto.cc/
@@ -19,6 +19,16 @@
         link: https://blog.kclub.tech/
         avatar: /link/assets/avatar/kclub.webp
         descr: "一同畅游代码的海洋，感受极客世界的无限可能。"
+        recommend: false
+      - name: 西西のBlog
+        link: https://xxand.cc
+        avatar: /link/assets/avatar/xxand.webp
+        descr: "嘻嘻西西CC吸吸"
+        recommend: false
+      - name: Hello! I'm 0o酱
+        link: https://blog.im0o.top/
+        avatar: /link/assets/avatar/im0o.webp
+        descr: "光阴如梦，昨日随风"
         recommend: false
 - class_name: 站点
   link_list:

@@ -14,7 +14,8 @@
 		{
 			"files": "*.md",
 			"options": {
-				"useTabs": false
+				"useTabs": false,
+				"tabWidth": 2
 			}
 		}
 	]
