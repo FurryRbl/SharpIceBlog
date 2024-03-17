@@ -1,7 +1,7 @@
 {
 	"name": "sharpice_site",
 	"version": "1.0.0",
-	"description": "SharpIce 个人站点",
+	"description": "锐冰龙的个人博客",
 	"type": "module",
 	"license": "MPL-2.0",
 	"private": true,
@@ -19,11 +19,18 @@
 		"url": "https://SharpIce.top"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
 	},
 	"hexo": {
 		"version": "7.1.1"
 	},
+	"browserslist": [
+		"defaults",
+		"not ie < 11",
+		"last 2 versions",
+		"> 1%",
+		"last 3 iOS versions"
+	],
 	"scripts": {
 		"lint": "eslint --fix .",
 		"pre": "prettier . --write",
@@ -32,18 +39,22 @@
 		"dev": "hexo server"
 	},
 	"devDependencies": {
+		"cssnano": "^6.1.0",
+		"cssnano-preset-advanced": "^6.1.0",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
 		"hexo-cli": "^4.3.1",
 		"html-minifier-terser": "^7.2.0",
-		"prettier": "^3.2.5"
+		"postcss": "^8.4.35",
+		"postcss-preset-env": "^9.5.1",
+		"prettier": "^3.2.5",
+		"terser": "^5.29.2"
 	},
 	"dependencies": {
 		"hexo": "^7.0.0",
 		"hexo-browsersync": "^0.3.0",
 		"hexo-butterfly-extjs": "^1.4.10",
-		"hexo-clean-css": "^2.0.0",
 		"hexo-generator-archive": "^2.0.0",
 		"hexo-generator-category": "^2.0.0",
 		"hexo-generator-feed": "^3.0.0",
@@ -56,7 +67,6 @@
 		"hexo-renderer-stylus": "^3.0.1",
 		"hexo-server": "^3.0.0",
 		"hexo-theme-butterfly": "^4.13.0",
-		"hexo-uglify": "^2.0.0",
 		"hexo-wordcount": "^6.0.1",
 		"markdown-it": "^14.0.0",
 		"markdown-it-abbr": "^2.0.0",

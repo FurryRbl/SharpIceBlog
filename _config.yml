@@ -124,19 +124,6 @@ feed:
     autodiscovery: true
     template:
 
-# JS 压缩
-uglify:
-    mangle: true
-    output:
-    compress:
-    exclude:
-        - "*.min.js"
-
-# CSS 清理
-clean_css:
-    exclude:
-        - "*.min.css"
-
 # hexo-browsersync 插件
 browsersync:
     ui: false

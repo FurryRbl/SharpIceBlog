@@ -4,7 +4,7 @@ var hexo = hexo || {};
 const { minify } = require("html-minifier-terser");
 
 /** @type {import('html-minifier-terser').Options} */
-const minifyConfig = {
+const htmlMinifyConfig = {
 	removeAttributeQuotes: false, // class="foo-bar" to class=foo-bar
 	removeComments: true,
 	collapseWhitespace: true,
@@ -18,7 +18,7 @@ if (hexo.env.cmd === "generate") {
 		"after_render:html",
 		async function (htmlContent, data) {
 			// 压缩 HTML
-			const HTML = await minify(htmlContent, minifyConfig);
+			const HTML = await minify(htmlContent, htmlMinifyConfig);
 			return HTML;
 		}
 	);
