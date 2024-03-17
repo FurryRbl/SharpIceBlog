@@ -3,7 +3,7 @@
       - name: Koto
         link: https://koto.cc/
         avatar: /link/assets/avatar/Kato.webp
-        descr: "kob的灌水站"
+        descr: "Koto的灌水站"
         recommend: false
       - name: 中二蘑菇狐狸
         link: https://imfurry.com/
@@ -29,6 +29,16 @@
         link: https://blog.im0o.top/
         avatar: /link/assets/avatar/im0o.webp
         descr: "光阴如梦，昨日随风"
+        recommend: false
+      - name: 白山白墨
+        link: https://iy.ink/
+        avatar: /link/assets/avatar/iy.webp
+        descr: "嗯"
+        recommend: false
+      - name: 绀漓の杂货铺
+        link: https://blog.sevtinge.cc/
+        avatar: /link/assets/avatar/sevtinge.webp
+        descr: "这里是绀漓的杂货铺。看起来好像没人在这里，要不然偷一块面包？"
         recommend: false
 - class_name: 站点
   link_list:
