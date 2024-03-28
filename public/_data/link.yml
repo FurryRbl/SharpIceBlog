@@ -40,6 +40,21 @@
         avatar: /link/assets/avatar/sevtinge.webp
         descr: "这里是绀漓的杂货铺。看起来好像没人在这里，要不然偷一块面包？"
         recommend: false
+      - name: F_Qilin的小窝
+        link: https://www.fqilin.top/blog
+        avatar: /link/assets/avatar/fqilin.webp
+        descr: "一个小小的个人博客"
+        recommend: false
+      - name: 〖天蓝〗の小窝
+        link: https://blog.meta1937.top/
+        avatar: /link/assets/avatar/meta1937.webp
+        descr: "这里是〖天藍〗，18岁，学生です，是Furry哦~"
+        recommend: false
+      - name: 宽宽
+        link: https://kuankuan2007.gitee.io/
+        avatar: /link/assets/avatar/kuankuan2007.webp
+        descr: "宽宽的小天地"
+        recommend: false
 - class_name: 站点
   link_list:
       - name: 应龙笔记

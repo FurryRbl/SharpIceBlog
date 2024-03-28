@@ -39,17 +39,17 @@
 		"dev": "hexo server"
 	},
 	"devDependencies": {
-		"cssnano": "^6.1.0",
-		"cssnano-preset-advanced": "^6.1.0",
+		"cssnano": "^6.1.2",
+		"cssnano-preset-advanced": "^6.1.2",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
 		"hexo-cli": "^4.3.1",
 		"html-minifier-terser": "^7.2.0",
-		"postcss": "^8.4.35",
-		"postcss-preset-env": "^9.5.1",
+		"postcss": "^8.4.38",
+		"postcss-preset-env": "^9.5.2",
 		"prettier": "^3.2.5",
-		"terser": "^5.29.2"
+		"terser": "^5.30.0"
 	},
 	"dependencies": {
 		"hexo": "^7.0.0",
@@ -68,7 +68,7 @@
 		"hexo-server": "^3.0.0",
 		"hexo-theme-butterfly": "^4.13.0",
 		"hexo-wordcount": "^6.0.1",
-		"markdown-it": "^14.0.0",
+		"markdown-it": "^14.1.0",
 		"markdown-it-abbr": "^2.0.0",
 		"markdown-it-attrs": "^4.1.6",
 		"markdown-it-cjk-breaks": "^2.0.0",
