@@ -3,6 +3,7 @@ title: 解决JavaScript DOM事件不生效问题
 date: 2/26/2024 17:30:00
 description: 解决前端通过async引入的JavaScript DOM事件不生效问题
 keywords: 前端,JavaScript,DOM
+tags: 前端
 categories: 前端
 ---
 
@@ -10,15 +11,15 @@ categories: 前端
 
 ```html index.html
 <html>
-    <head>
-        <script src="/main.js" async></script>
-    </head>
+  <head>
+    <script src="/main.js" async></script>
+  </head>
 </html>
 ```
 
 ```javascript main.js
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("Hello World！");
+  console.log("Hello World！");
 });
 ```
 
@@ -42,12 +43,12 @@ complete（完成）
 
 ```javascript main.js
 const initialize = () => {
-    console.log("Hello World！");
+  console.log("Hello World！");
 };
 
 if (document.readyState !== "loading") {
-    initialize();
+  initialize();
 } else {
-    document.addEventListener("DOMContentLoaded", initialize);
+  document.addEventListener("DOMContentLoaded", initialize);
 }
 ```
