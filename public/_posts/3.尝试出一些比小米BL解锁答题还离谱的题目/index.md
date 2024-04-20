@@ -7,8 +7,6 @@ tags: Android
 categories: Android
 ---
 
-<!-- markdownlint-disable MD036 -->
-
 ## 题目
 
 ### 1. system.transfer.list 和 system.new.dat.br 相关 [^1]

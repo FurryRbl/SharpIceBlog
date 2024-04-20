@@ -7,8 +7,6 @@ tags: Android
 categories: Android
 ---
 
-<!-- markdownlint-disable MD036 -->
-
 **Tips: 使用这个方法必须关闭Android Studio的部署优化（Always install with package manager(disable deploy optimizations on Android11 and later)），否者请使用Gralde命令手动编译安装**
 
 ## 代码

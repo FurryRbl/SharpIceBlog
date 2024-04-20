@@ -7,8 +7,6 @@ tags: Windows
 categories: C#
 ---
 
-<!-- markdownlint-disable MD036 -->
-
 ## 项目配置
 
 ```xml Project.csproj

@@ -3,5 +3,8 @@
 	"yaml.schemaStore.enable": false,
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit"
+	},
+	"markdownlint.config": {
+		"MD036": false
 	}
 }

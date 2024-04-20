@@ -1,84 +1,83 @@
 {
-  "name": "sharpice_site",
-  "version": "1.0.0",
-  "description": "锐冰龙的个人博客",
-  "type": "module",
-  "license": "MPL-2.0",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/FurryRbl/SharpIceSite.git"
-  },
-  "homepage": "https://github.com/FurryRbl/SharpIceSite",
-  "bugs": {
-    "url": "https://github.com/FurryRbl/SharpIceSite/issues"
-  },
-  "author": {
-    "name": "SharpIce",
-    "email": "VupRbl@163.com",
-    "url": "https://SharpIce.top"
-  },
-  "engines": {
-    "node": ">=20"
-  },
-  "hexo": {
-    "version": "7.2.0"
-  },
-  "browserslist": [
-    "defaults",
-    "not ie < 11",
-    "last 2 versions",
-    "> 1%",
-    "last 3 iOS versions"
-  ],
-  "scripts": {
-    "lint": "eslint --fix .",
-    "pre": "prettier . --write",
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "dev": "hexo server"
-  },
-  "devDependencies": {
-    "cssnano": "^6.1.2",
-    "cssnano-preset-advanced": "^6.1.2",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "hexo-cli": "^4.3.2",
-    "html-minifier-terser": "^7.2.0",
-    "postcss": "^8.4.38",
-    "postcss-preset-env": "^9.5.6",
-    "prettier": "^3.2.5",
-    "terser": "^5.30.3"
-  },
-  "dependencies": {
-    "hexo": "^7.2.0",
-    "hexo-browsersync": "^0.3.0",
-    "hexo-butterfly-extjs": "^1.4.11",
-    "hexo-generator-archive": "^2.0.0",
-    "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-index": "^3.0.0",
-    "hexo-generator-search": "^2.4.3",
-    "hexo-generator-sitemap": "^3.0.1",
-    "hexo-generator-tag": "^2.0.0",
-    "hexo-renderer-markdown-it": "^7.1.1",
-    "hexo-renderer-pug": "^3.0.0",
-    "hexo-renderer-stylus": "^3.0.1",
-    "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "^4.13.0",
-    "hexo-wordcount": "^6.0.1",
-    "markdown-it": "^14.1.0",
-    "markdown-it-abbr": "^2.0.0",
-    "markdown-it-attrs": "^4.1.6",
-    "markdown-it-cjk-breaks": "^2.0.0",
-    "markdown-it-deflist": "^3.0.0",
-    "markdown-it-emoji": "^3.0.0",
-    "markdown-it-footnote": "^4.0.0",
-    "markdown-it-ins": "^4.0.0",
-    "markdown-it-mark": "^4.0.0",
-    "markdown-it-multimd-table": "^4.2.3",
-    "markdown-it-sub": "^2.0.0",
-    "markdown-it-sup": "^2.0.0"
-  }
+	"name": "sharpice_site",
+	"version": "1.0.0",
+	"description": "锐冰龙的个人博客",
+	"type": "module",
+	"license": "MPL-2.0",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FurryRbl/SharpIceSite.git"
+	},
+	"homepage": "https://github.com/FurryRbl/SharpIceSite",
+	"bugs": {
+		"url": "https://github.com/FurryRbl/SharpIceSite/issues"
+	},
+	"author": {
+		"name": "SharpIce",
+		"email": "VupRbl@163.com",
+		"url": "https://SharpIce.top"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"hexo": {
+		"version": "7.2.0"
+	},
+	"browserslist": [
+		"defaults",
+		"not ie < 11",
+		"last 2 versions",
+		"> 1%",
+		"last 3 iOS versions"
+	],
+	"scripts": {
+		"lint": "eslint --fix .",
+		"pre": "prettier . --write",
+		"build": "hexo generate",
+		"clean": "hexo clean",
+		"dev": "hexo server"
+	},
+	"devDependencies": {
+		"cssnano": "^6.1.2",
+		"cssnano-preset-advanced": "^6.1.2",
+		"eslint": "^9.1.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"hexo-cli": "^4.3.2",
+		"html-minifier-terser": "^7.2.0",
+		"postcss": "^8.4.38",
+		"postcss-preset-env": "^9.5.6",
+		"prettier": "^3.2.5",
+		"terser": "^5.30.3"
+	},
+	"dependencies": {
+		"hexo": "^7.2.0",
+		"hexo-browsersync": "^0.3.0",
+		"hexo-butterfly-extjs": "^1.4.11",
+		"hexo-generator-archive": "^2.0.0",
+		"hexo-generator-category": "^2.0.0",
+		"hexo-generator-feed": "^3.0.0",
+		"hexo-generator-index": "^3.0.0",
+		"hexo-generator-search": "^2.4.3",
+		"hexo-generator-sitemap": "^3.0.1",
+		"hexo-generator-tag": "^2.0.0",
+		"hexo-renderer-markdown-it": "^7.1.1",
+		"hexo-renderer-pug": "^3.0.0",
+		"hexo-renderer-stylus": "^3.0.1",
+		"hexo-server": "^3.0.0",
+		"hexo-theme-butterfly": "^4.13.0",
+		"hexo-wordcount": "^6.0.1",
+		"markdown-it-abbr": "^2.0.0",
+		"markdown-it-attrs": "^4.1.6",
+		"markdown-it-cjk-breaks": "^2.0.0",
+		"markdown-it-deflist": "^3.0.0",
+		"markdown-it-emoji": "^3.0.0",
+		"markdown-it-footnote": "^4.0.0",
+		"markdown-it-ins": "^4.0.0",
+		"markdown-it-mark": "^4.0.0",
+		"markdown-it-multimd-table": "^4.2.3",
+		"markdown-it-sub": "^2.0.0",
+		"markdown-it-sup": "^2.0.0"
+	}
 }
