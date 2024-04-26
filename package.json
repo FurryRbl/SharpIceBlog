@@ -39,17 +39,17 @@
 		"dev": "hexo server"
 	},
 	"devDependencies": {
-		"cssnano": "^6.1.2",
-		"cssnano-preset-advanced": "^6.1.2",
-		"eslint": "^9.1.0",
+		"cssnano": "^7.0.0",
+		"cssnano-preset-advanced": "^7.0.0",
+		"eslint": "^9.1.1",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
 		"postcss": "^8.4.38",
-		"postcss-preset-env": "^9.5.6",
+		"postcss-preset-env": "^9.5.9",
 		"prettier": "^3.2.5",
-		"terser": "^5.30.3"
+		"terser": "^5.30.4"
 	},
 	"dependencies": {
 		"hexo": "^7.2.0",
@@ -68,16 +68,9 @@
 		"hexo-server": "^3.0.0",
 		"hexo-theme-butterfly": "^4.13.0",
 		"hexo-wordcount": "^6.0.1",
-		"markdown-it-abbr": "^2.0.0",
-		"markdown-it-attrs": "^4.1.6",
-		"markdown-it-cjk-breaks": "^2.0.0",
-		"markdown-it-deflist": "^3.0.0",
-		"markdown-it-emoji": "^3.0.0",
-		"markdown-it-footnote": "^4.0.0",
-		"markdown-it-ins": "^4.0.0",
-		"markdown-it-mark": "^4.0.0",
-		"markdown-it-multimd-table": "^4.2.3",
-		"markdown-it-sub": "^2.0.0",
-		"markdown-it-sup": "^2.0.0"
+		"markdown-it-multimd-table": "^4.2.3"
+	},
+	"resolutions": {
+		"browser-sync": "^3.0.2"
 	}
 }
