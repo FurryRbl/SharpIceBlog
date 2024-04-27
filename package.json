@@ -39,8 +39,8 @@
 		"dev": "hexo server"
 	},
 	"devDependencies": {
-		"cssnano": "^7.0.0",
-		"cssnano-preset-advanced": "^7.0.0",
+		"cssnano": "^7.0.1",
+		"cssnano-preset-advanced": "^7.0.1",
 		"eslint": "^9.1.1",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
