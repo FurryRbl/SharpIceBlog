@@ -41,15 +41,15 @@
 	"devDependencies": {
 		"cssnano": "^7.0.1",
 		"cssnano-preset-advanced": "^7.0.1",
-		"eslint": "^9.1.1",
+		"eslint": "^9.2.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
 		"postcss": "^8.4.38",
-		"postcss-preset-env": "^9.5.9",
+		"postcss-preset-env": "^9.5.11",
 		"prettier": "^3.2.5",
-		"terser": "^5.30.4"
+		"terser": "^5.31.0"
 	},
 	"dependencies": {
 		"hexo": "^7.2.0",

@@ -315,7 +315,7 @@ File Type: DLL
 ```lua xmake.lua
 add_rules("mode.debug", "mode.release")
 
-target("Meteor")
+target("ProjectName")
     set_kind("shared")
     add_files("src/main.c")
     set_filename("dbghelp.dll")
