@@ -20,6 +20,7 @@ if (hexo.env.cmd === "server") {
 				prettierConfig
 			);
 			return formatHtmlContent;
-		}
+		},
+		100
 	);
 }

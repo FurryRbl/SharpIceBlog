@@ -139,7 +139,7 @@ toc:
 post_copyright:
     enable: true
     decode: true
-    author_href: https://sharpice.top/
+    author_href: https://blog.sharpice.top/
     license: CC BY-NC-SA 4.0
     license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 

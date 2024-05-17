@@ -58,7 +58,7 @@
 - class_name: 站点
   link_list:
       - name: 应龙笔记
-        link: https://www.silverdragon.cn/?link=https://sharpice.top
+        link: https://www.silverdragon.cn/?link=https://blog.sharpice.top
         avatar: /link/assets/avatar/silverdragon.webp
         descr: "应龙笔记是一个专注于知识分享的网站"
         recommend: false

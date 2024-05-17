@@ -1,17 +1,17 @@
 {
-	"name": "sharpice_site",
+	"name": "sharpice_blog",
 	"version": "1.0.0",
-	"description": "锐冰龙的个人博客",
+	"description": "锐冰的个人博客",
 	"type": "module",
 	"license": "MPL-2.0",
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/FurryRbl/SharpIceSite.git"
+		"url": "https://github.com/FurryRbl/SharpIceBlog.git"
 	},
-	"homepage": "https://github.com/FurryRbl/SharpIceSite",
+	"homepage": "https://blog.sharpice.top",
 	"bugs": {
-		"url": "https://github.com/FurryRbl/SharpIceSite/issues"
+		"url": "https://github.com/FurryRbl/SharpIceBlog/issues"
 	},
 	"author": {
 		"name": "SharpIce",
@@ -47,7 +47,7 @@
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
 		"postcss": "^8.4.38",
-		"postcss-preset-env": "^9.5.11",
+		"postcss-preset-env": "^9.5.13",
 		"prettier": "^3.2.5",
 		"terser": "^5.31.0"
 	},

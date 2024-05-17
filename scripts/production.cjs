@@ -20,6 +20,7 @@ if (hexo.env.cmd === "generate") {
 			// 压缩 HTML
 			const HTML = await minify(htmlContent, htmlMinifyConfig);
 			return HTML;
-		}
+		},
+		100
 	);
 }
