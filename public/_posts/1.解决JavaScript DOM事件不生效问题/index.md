@@ -18,8 +18,8 @@ categories: 前端
 ```
 
 ```javascript main.js
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Hello World！");
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Hello World！');
 });
 ```
 
@@ -43,12 +43,12 @@ complete（完成）
 
 ```javascript main.js
 const initialize = () => {
-  console.log("Hello World！");
+  console.log('Hello World！');
 };
 
-if (document.readyState !== "loading") {
+if (document.readyState !== 'loading') {
   initialize();
 } else {
-  document.addEventListener("DOMContentLoaded", initialize);
+  document.addEventListener('DOMContentLoaded', initialize);
 }
 ```

@@ -3,62 +3,67 @@
       - name: Koto
         link: https://koto.cc/
         avatar: /link/assets/avatar/Kato.webp
-        descr: "Koto的灌水站"
+        descr: 'Koto的灌水站'
         recommend: false
       - name: 中二蘑菇狐狸
         link: https://imfurry.com/
         avatar: /link/assets/avatar/zebwqfox.webp
-        descr: "一只狐狸敲出的一个奇迹"
+        descr: '一只狐狸敲出的一个奇迹'
         recommend: false
       - name: 澪度
         link: https://www.0du.top/
         avatar: /link/assets/avatar/0du.webp
-        descr: "福瑞控,音游批，成分也很杂。"
+        descr: '福瑞控,音游批，成分也很杂。'
         recommend: false
       - name: 迷失的小K
         link: https://blog.kclub.tech/
         avatar: /link/assets/avatar/kclub.webp
-        descr: "一同畅游代码的海洋，感受极客世界的无限可能。"
+        descr: '一同畅游代码的海洋，感受极客世界的无限可能。'
         recommend: false
       - name: 西西のBlog
         link: https://xxand.cc
         avatar: /link/assets/avatar/xxand.webp
-        descr: "嘻嘻西西CC吸吸"
+        descr: '嘻嘻西西CC吸吸'
         recommend: false
       - name: Hello! I'm 0o酱
         link: https://blog.im0o.top/
         avatar: /link/assets/avatar/im0o.webp
-        descr: "光阴如梦，昨日随风"
+        descr: '光阴如梦，昨日随风'
         recommend: false
       - name: 白山白墨
         link: https://iy.ink/
         avatar: /link/assets/avatar/iy.webp
-        descr: "嗯"
+        descr: '嗯'
         recommend: false
       - name: 绀漓の杂货铺
         link: https://blog.sevtinge.cc/
         avatar: /link/assets/avatar/sevtinge.webp
-        descr: "这里是绀漓的杂货铺。看起来好像没人在这里，要不然偷一块面包？"
+        descr: '这里是绀漓的杂货铺。看起来好像没人在这里，要不然偷一块面包？'
         recommend: false
       - name: F_Qilin的小窝
         link: https://www.fqilin.top/blog
         avatar: /link/assets/avatar/fqilin.webp
-        descr: "一个小小的个人博客"
+        descr: '一个小小的个人博客'
         recommend: false
       - name: 〖天蓝〗の小窝
         link: https://blog.meta1937.top/
         avatar: /link/assets/avatar/meta1937.webp
-        descr: "这里是〖天藍〗，18岁，学生です，是Furry哦~"
+        descr: '这里是〖天藍〗，18岁，学生です，是Furry哦~'
         recommend: false
       - name: 宽宽
         link: https://kuankuan2007.gitee.io/
         avatar: /link/assets/avatar/kuankuan2007.webp
-        descr: "宽宽的小天地"
+        descr: '宽宽的小天地'
+        recommend: false
+      - name: 嗨皮
+        link: https://www.owk.ink/
+        avatar: /link/assets/avatar/owk.webp
+        descr: '憨憨'
         recommend: false
 - class_name: 站点
   link_list:
       - name: 应龙笔记
         link: https://www.silverdragon.cn/?link=https://blog.sharpice.top
         avatar: /link/assets/avatar/silverdragon.webp
-        descr: "应龙笔记是一个专注于知识分享的网站"
+        descr: '应龙笔记是一个专注于知识分享的网站'
         recommend: false

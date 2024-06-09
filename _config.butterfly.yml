@@ -80,8 +80,8 @@ error_img:
 # 配置 404 页面
 error_404:
     enable: true
-    subtitle: "前面的区域以后再来探索吧！"
-    background:
+    subtitle: '前面的区域以后再来探索吧！'
+    background: /404.webp
 
 post_meta:
     page:
@@ -119,7 +119,7 @@ photofigcaption: true
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-    enable: true
+    enable: false
     copyright:
         enable: false
         limit_count: 50
@@ -247,7 +247,7 @@ aside:
     card_post_series:
         enable: true
         series_title: false # The title shows the series name
-        orderBy: "date" # Order by title or date
+        orderBy: 'date' # Order by title or date
         order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
 # busuanzi count for PV / UV in site
@@ -284,9 +284,9 @@ translate:
     # Time delay
     translateDelay: 0
     # The text of the button when the language is Simplified Chinese
-    msgToTraditionalChinese: "繁"
+    msgToTraditionalChinese: '繁'
     # The text of the button when the language is Traditional Chinese
-    msgToSimplifiedChinese: "簡"
+    msgToSimplifiedChinese: '簡'
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -300,7 +300,7 @@ darkmode:
     # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
     # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
     # autoChangeMode: false
-    autoChangeMode: false
+    autoChangeMode: true
     # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
     start: # 8
     end: # 22
@@ -593,21 +593,21 @@ site_verification:
 
 theme_color:
     enable: true
-    main: "#4CC3FF"
-    paginator: "#4CC3FF"
-    button_hover: "#FF7242"
-    text_selection: "#00c4b6"
-    link_color: "#99a9bf"
-    meta_color: "#858585"
-    hr_color: "#A4D8FA"
-    code_foreground: "#F47466"
-    code_background: "rgba(27, 31, 35, .05)"
-    toc_color: "#65FFB2"
-    blockquote_padding_color: "#49b1f5"
-    blockquote_background_color: "#49b1f5"
-    scrollbar_color: "#49b1f5"
-    meta_theme_color_light: "#ffffff"
-    meta_theme_color_dark: "#0d0d0d"
+    main: '#4CC3FF'
+    paginator: '#4CC3FF'
+    button_hover: '#FF7242'
+    text_selection: '#00c4b6'
+    link_color: '#99a9bf'
+    meta_color: '#858585'
+    hr_color: '#A4D8FA'
+    code_foreground: '#F47466'
+    code_background: 'rgba(27, 31, 35, .05)'
+    toc_color: '#65FFB2'
+    blockquote_padding_color: '#49b1f5'
+    blockquote_background_color: '#49b1f5'
+    scrollbar_color: '#49b1f5'
+    meta_theme_color_light: '#ffffff'
+    meta_theme_color_dark: '#0d0d0d'
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -674,7 +674,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
     enable: false
-    color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+    color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
     opacity: 0.7 # the opacity of line (0~1), default: 0.5.
     zIndex: -1 # z-index property of the background, default: -1.
     count: 99 # the number of lines, default: 99.
@@ -787,7 +787,7 @@ fancybox: true
 # series (系列文章)
 series:
     enable: true
-    orderBy: "title" # Order by title or date
+    orderBy: 'title' # Order by title or date
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     number: true
 
@@ -844,8 +844,8 @@ aplayerInject:
 snackbar:
     enable: true
     position: bottom-right
-    bg_light: "#4CC3FF" # The background color of Toast Notification in light mode
-    bg_dark: "#1f1f1f" # The background color of Toast Notification in dark mode
+    bg_light: '#4CC3FF' # The background color of Toast Notification in light mode
+    bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)

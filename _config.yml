@@ -1,12 +1,12 @@
 # 网站
 title: 锐龙的小窝
-subtitle: ""
-description: "锐冰温馨的小窝~"
+subtitle: ''
+description: '锐冰温馨的小窝~'
 keywords: SharpIce,FurryRbl,Furry,Blog,锐冰龙,锐冰,博客,个人博客,小窝,温馨的小窝
 author: SharpIce
 language: zh-CN
-timezone: "Asia/Shanghai"
-email: "VupRbl@163.com"
+timezone: 'Asia/Shanghai'
+email: 'VupRbl@163.com'
 
 # 网址
 url: https://blog.sharpice.top
@@ -35,7 +35,7 @@ titlecase: false
 external_link:
     enable: true
     field: site
-    exclude: ""
+    exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -45,7 +45,7 @@ highlight:
     enable: false
     line_number: true
     auto_detect: false
-    tab_replace: ""
+    tab_replace: ''
     wrap: true
     hljs: false
 prismjs:
@@ -53,7 +53,7 @@ prismjs:
     preprocess: true
     line_number: false
     line_threshold: 0
-    tab_replace: ""
+    tab_replace: ''
 
 # 分类 & 标签
 default_category: 未分类
@@ -63,7 +63,7 @@ tag_map:
 # 日期 / 时间格式
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-updated_option: "mtime"
+updated_option: 'mtime'
 
 # 分页
 per_page: 10
@@ -73,7 +73,7 @@ pagination_dir: page
 theme: butterfly
 theme_config:
 deploy:
-    type: ""
+    type: ''
 meta_generator: true
 
 # 包括或不包括目录和文件
@@ -84,7 +84,7 @@ ignore:
 ########## 插件 ##########
 # 首页生成
 index_generator:
-    path: ""
+    path: ''
     per_page: 10
     order_by: -date
 
@@ -118,7 +118,7 @@ feed:
     hub:
     content: true
     content_limit: 256
-    content_limit_delim: " "
+    content_limit_delim: ' '
     order_by: -date
     icon: /favicon.webp
     autodiscovery: true
@@ -130,15 +130,15 @@ browsersync:
 
 # hexo-renderer-marked 插件
 markdown:
-    preset: "default"
+    preset: 'default'
     render:
         html: true
         xhtmlOut: false
-        langPrefix: "language-"
+        langPrefix: 'language-'
         breaks: true
         linkify: true
         typographer: true
-        quotes: "“”‘’"
+        quotes: '“”‘’'
     enable_rules:
     disable_rules:
     plugins:
@@ -156,13 +156,13 @@ markdown:
         - markdown-it-multimd-table
     anchors:
         level: 2
-        collisionSuffix: ""
+        collisionSuffix: ''
         permalink: false
-        permalinkClass: "header-anchor"
-        permalinkSide: "left"
-        permalinkSymbol: "¶"
+        permalinkClass: 'header-anchor'
+        permalinkSide: 'left'
+        permalinkSymbol: '¶'
         case: 0
-        separator: "-"
+        separator: '-'
     images:
         lazyload: false
         prepend_root: false
