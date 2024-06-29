@@ -1,0 +1,23 @@
+{
+	"name": "锐冰温馨的小窝",
+	"short_name": "锐冰",
+	"description": "锐冰温馨的小窝~",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#4CC3FF",
+	"icons": [
+		{
+			"src": "/favicon.webp",
+			"sizes": "1024x1024",
+			"type": "image/webp",
+			"purpose": "any"
+		},
+		{
+			"src": "/favicon.ico",
+			"sizes": "256x256",
+			"type": "image/x-icon",
+			"purpose": "any"
+		}
+	]
+}

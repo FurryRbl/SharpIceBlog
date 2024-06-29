@@ -1,7 +1,7 @@
 'use strict';
 
 var hexo = hexo || {};
-const { minify } = require('html-minifier-terser');
+const minifyHTML = require('html-minifier-terser').minify;
 
 /** @type {import('html-minifier-terser').Options} */
 const htmlMinifyConfig = {
@@ -13,12 +13,12 @@ const htmlMinifyConfig = {
 	minifyJS: true,
 };
 
-if (hexo.env.cmd === 'generate') {
+if (hexo.env.cmd === 'generate' || hexo.env.cmd === 'g') {
+	// 压缩 HTML
 	hexo.extend.filter.register(
 		'after_render:html',
 		async function (htmlContent, data) {
-			// 压缩 HTML
-			const HTML = await minify(htmlContent, htmlMinifyConfig);
+			const HTML = await minifyHTML(htmlContent, htmlMinifyConfig);
 			return HTML;
 		},
 		100,

@@ -3,6 +3,7 @@
 var hexo = hexo || {};
 
 const terser = require('terser');
+const { JSDOM } = require('jsdom');
 const postcss = require('postcss');
 const cssnano = require('cssnano');
 const postcssPresetEnv = require('postcss-preset-env');
@@ -37,7 +38,7 @@ hexo.extend.filter.register(
 // 处理 JavaScript
 hexo.extend.filter.register(
 	'after_render:js',
-	async function (source, data) {
+	async function (source) {
 		try {
 			const minifiedCode = await terser.minify(source, {
 				sourceMap: false,
@@ -48,6 +49,48 @@ hexo.extend.filter.register(
 			console.error(error);
 			return source;
 		}
+	},
+	100,
+);
+
+// 在 HTML Head 添加额外信息
+hexo.extend.filter.register(
+	'after_render:html',
+	function (htmlContent) {
+		const { document } = new JSDOM(htmlContent).window;
+		const head = document.querySelector('head');
+
+		const metaTags = [
+			{ tag: 'meta', attrs: { 'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8' } },
+			{ tag: 'meta', attrs: { name: 'title', content: head.querySelector('title').textContent } },
+			{ tag: 'link', attrs: { rel: 'icon', type: 'image/x-icon', sizes: '256x256', href: '/favicon.ico' } },
+			{ tag: 'link', attrs: { rel: 'icon', type: 'image/webp', sizes: '1024x1024', href: '/favicon.webp' } },
+			{
+				tag: 'link',
+				attrs: { rel: 'apple-touch-icon', type: 'image/x-icon', sizes: '256x256', href: '/favicon.ico' },
+			},
+			{
+				tag: 'link',
+				attrs: { rel: 'apple-touch-icon', type: 'image/webp', sizes: '1024x1024', href: '/favicon.webp' },
+			},
+			{ tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
+			{ tag: 'link', attrs: { rel: 'license', content: 'Code: MPL-2.0, Text: CC BY-NC-SA 4.0' } },
+		];
+
+		// 移除现有的 favicon
+		const favicon = head.querySelector('link[rel="shortcut icon"]');
+		if (favicon) {
+			favicon.remove();
+		}
+
+		// 添加 meta 和 link 标签
+		metaTags.forEach(({ tag, attrs }) => {
+			const element = document.createElement(tag);
+			Object.entries(attrs).forEach(([key, value]) => element.setAttribute(key, value));
+			head.appendChild(element);
+		});
+
+		return new JSDOM(document.documentElement.outerHTML).serialize();
 	},
 	100,
 );
