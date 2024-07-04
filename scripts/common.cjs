@@ -32,7 +32,7 @@ hexo.extend.filter.register(
 				return source;
 			});
 	},
-	100,
+	1000,
 );
 
 // 处理 JavaScript
@@ -50,7 +50,7 @@ hexo.extend.filter.register(
 			return source;
 		}
 	},
-	100,
+	1000,
 );
 
 // 在 HTML Head 添加额外信息
@@ -115,5 +115,5 @@ hexo.extend.filter.register(
 
 		return tipsInfo.join('\n') + htmlContent;
 	},
-	101,
+	999,
 );

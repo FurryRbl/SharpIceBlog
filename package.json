@@ -48,13 +48,13 @@
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
 		"jsdom": "^24.1.0",
-		"postcss": "^8.4.38",
-		"postcss-preset-env": "^9.5.14",
+		"postcss": "^8.4.39",
+		"postcss-preset-env": "^9.5.15",
 		"prettier": "^3.3.2",
 		"terser": "^5.31.1"
 	},
 	"dependencies": {
-		"hexo": "^7.2.0",
+		"hexo": "^7.3.0",
 		"hexo-browsersync": "^0.3.0",
 		"hexo-butterfly-extjs": "^1.4.11",
 		"hexo-generator-archive": "^2.0.0",

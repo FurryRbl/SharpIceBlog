@@ -21,6 +21,6 @@ if (hexo.env.cmd === 'generate' || hexo.env.cmd === 'g') {
 			const HTML = await minifyHTML(htmlContent, htmlMinifyConfig);
 			return HTML;
 		},
-		100,
+		1000,
 	);
 }
