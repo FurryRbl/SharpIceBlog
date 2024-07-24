@@ -60,6 +60,11 @@
         avatar: /link/assets/avatar/owk.webp
         descr: '憨憨'
         recommend: false
+      - name: 飞羽的小窝
+        link: https://zoxoy.club/
+        avatar: /link/assets/avatar/zoxoy.webp
+        descr: '一个菜鸡的博客'
+        recommend: false
 - class_name: 站点
   link_list:
       - name: 应龙笔记
