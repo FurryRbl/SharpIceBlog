@@ -18,11 +18,8 @@
 		"email": "VupRbl@163.com",
 		"url": "https://SharpIce.top"
 	},
-	"engines": {
-		"node": ">=20"
-	},
 	"hexo": {
-		"version": "7.2.0"
+		"version": "7.3.0"
 	},
 	"browserslist": [
 		"defaults",
@@ -32,24 +29,24 @@
 		"last 3 iOS versions"
 	],
 	"scripts": {
-		"lint": "eslint --fix .",
-		"pre": "prettier . --write",
-		"build": "hexo generate",
+		"dev": "hexo server",
 		"clean": "hexo clean",
-		"dev": "hexo server"
+		"lint": "eslint --fix .",
+		"build": "hexo generate",
+		"pre": "prettier . --write"
 	},
 	"devDependencies": {
 		"@types/jsdom": "^21.1.7",
 		"cssnano": "^7.0.4",
 		"cssnano-preset-advanced": "^7.0.4",
-		"eslint": "^9.7.0",
+		"eslint": "^9.8.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.2.1",
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
 		"jsdom": "^24.1.1",
-		"postcss": "^8.4.39",
-		"postcss-preset-env": "^9.6.0",
+		"postcss": "^8.4.40",
+		"postcss-preset-env": "^10.0.0",
 		"prettier": "^3.3.3",
 		"terser": "^5.31.3"
 	},

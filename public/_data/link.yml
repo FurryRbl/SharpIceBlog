@@ -20,11 +20,6 @@
         avatar: /link/assets/avatar/zebwqfox.webp
         descr: '一只狐狸敲出的一个奇迹'
         recommend: false
-      - name: 澪度
-        link: https://www.0du.top/
-        avatar: /link/assets/avatar/0du.webp
-        descr: '福瑞控,音游批，成分也很杂。'
-        recommend: false
       - name: 迷失的小K
         link: https://blog.kclub.tech/
         avatar: /link/assets/avatar/kclub.webp
@@ -50,11 +45,6 @@
         avatar: /link/assets/avatar/meta1937.webp
         descr: '这里是〖天藍〗，18岁，学生です，是Furry哦~'
         recommend: false
-      - name: 宽宽
-        link: https://kuankuan2007.gitee.io/
-        avatar: /link/assets/avatar/kuankuan2007.webp
-        descr: '宽宽的小天地'
-        recommend: false
       - name: 嗨皮
         link: https://www.owk.ink/
         avatar: /link/assets/avatar/owk.webp
@@ -71,4 +61,16 @@
         link: https://www.silverdragon.cn/?link=https://blog.sharpice.top
         avatar: /link/assets/avatar/silverdragon.webp
         descr: '应龙笔记是一个专注于知识分享的网站'
+        recommend: false
+- class_name: 已失效
+  link_list:
+      - name: 澪度
+        link: https://www.0du.top/
+        avatar: /link/assets/avatar/fail/0du.webp
+        descr: '福瑞控,音游批，成分也很杂。'
+        recommend: false
+      - name: 宽宽
+        link: https://kuankuan2007.gitee.io/
+        avatar: /link/assets/avatar/fail/kuankuan2007.webp
+        descr: '宽宽的小天地'
         recommend: false
