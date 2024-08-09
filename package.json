@@ -22,11 +22,8 @@
 		"version": "7.3.0"
 	},
 	"browserslist": [
-		"defaults",
-		"not ie < 11",
-		"last 2 versions",
-		"> 1%",
-		"last 3 iOS versions"
+		"since 2020",
+		"not dead"
 	],
 	"scripts": {
 		"dev": "hexo server",
@@ -34,21 +31,6 @@
 		"lint": "eslint --fix .",
 		"build": "hexo generate",
 		"pre": "prettier . --write"
-	},
-	"devDependencies": {
-		"@types/jsdom": "^21.1.7",
-		"cssnano": "^7.0.4",
-		"cssnano-preset-advanced": "^7.0.4",
-		"eslint": "^9.8.0",
-		"eslint-config-prettier": "^9.0.0",
-		"eslint-plugin-prettier": "^5.2.1",
-		"hexo-cli": "^4.3.2",
-		"html-minifier-terser": "^7.2.0",
-		"jsdom": "^24.1.1",
-		"postcss": "^8.4.41",
-		"postcss-preset-env": "^10.0.0",
-		"prettier": "^3.3.3",
-		"terser": "^5.31.3"
 	},
 	"dependencies": {
 		"hexo": "^7.3.0",
@@ -69,7 +51,23 @@
 		"hexo-wordcount": "^6.0.1",
 		"markdown-it-multimd-table": "^4.2.3"
 	},
+	"devDependencies": {
+		"@types/jsdom": "^21.1.7",
+		"cssnano": "^7.0.5",
+		"cssnano-preset-advanced": "^7.0.5",
+		"eslint": "^9.8.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"hexo-cli": "^4.3.2",
+		"html-minifier-terser": "^7.2.0",
+		"jsdom": "^24.1.1",
+		"postcss": "^8.4.41",
+		"postcss-preset-env": "^10.0.0",
+		"prettier": "^3.3.3",
+		"terser": "^5.31.5"
+	},
 	"resolutions": {
-		"browser-sync": "^3.0.2"
+		"browser-sync": "^3.0.2 ",
+		"pug": "^3.0.3"
 	}
 }

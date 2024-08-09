@@ -64,14 +64,14 @@ hexo.extend.filter.register(
 			{ tag: 'meta', attrs: { 'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8' } },
 			{ tag: 'meta', attrs: { name: 'title', content: head.querySelector('title').textContent } },
 			{ tag: 'link', attrs: { rel: 'icon', type: 'image/x-icon', sizes: '256x256', href: '/favicon.ico' } },
-			{ tag: 'link', attrs: { rel: 'icon', type: 'image/webp', sizes: '1024x1024', href: '/favicon.webp' } },
+			{ tag: 'link', attrs: { rel: 'icon', type: 'image/png', sizes: '800x800', href: '/favicon.png' } },
 			{
 				tag: 'link',
 				attrs: { rel: 'apple-touch-icon', type: 'image/x-icon', sizes: '256x256', href: '/favicon.ico' },
 			},
 			{
 				tag: 'link',
-				attrs: { rel: 'apple-touch-icon', type: 'image/webp', sizes: '1024x1024', href: '/favicon.webp' },
+				attrs: { rel: 'apple-touch-icon', type: 'image/png', sizes: '800x800', href: '/favicon.png' },
 			},
 			{ tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
 			{ tag: 'link', attrs: { rel: 'license', content: 'Code: MPL-2.0, Text: CC BY-NC-SA 4.0' } },

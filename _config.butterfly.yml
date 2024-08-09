@@ -1,6 +1,6 @@
 # 导航栏
 nav:
-    logo: /favicon.webp
+    logo: /favicon.ico
     display_title: true
     fixed: false
 
@@ -31,7 +31,7 @@ favicon: /favicon.ico
 
 # 头像
 avatar:
-    img: /favicon.webp
+    img: /favicon.png
     effect: false
 
 # 禁用顶部图
@@ -149,7 +149,7 @@ reward:
     text: 饿饿饭饭！
     QR_code:
         - img: /assets/icon/afdian.webp
-          link: https://afdian.net/@SharpIce
+          link: https://ifdian.net/@SharpIce
           text: 爱发电
 
 # Post edit
@@ -470,19 +470,21 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-    repo: FurryRbl/SharpIceSite
+    repo: FurryRbl/SharpIceBlog
     repo_id: R_kgDOK897-g
     category_id: DIC_kwDOK897-s4CdhTA
     theme:
         light: light
         dark: dark
     option:
-        data-strict: 1
+        data-strict: 0
         data-lang: zh-CN
+        data-mapping: url
         data-loading: lazy
         data-category: giscus
         data-emit-metadata: 0
         data-input-position: top
+        data-reactions_enabled: 1
 
 # Remark42
 # https://remark42.com/docs/configuration/frontend/

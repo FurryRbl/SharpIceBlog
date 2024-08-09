@@ -17,7 +17,7 @@ if (hexo.env.cmd === 'generate' || hexo.env.cmd === 'g') {
 	// 压缩 HTML
 	hexo.extend.filter.register(
 		'after_render:html',
-		async function (htmlContent, data) {
+		async function (htmlContent) {
 			const HTML = await minifyHTML(htmlContent, htmlMinifyConfig);
 			return HTML;
 		},

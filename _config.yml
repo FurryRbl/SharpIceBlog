@@ -1,7 +1,7 @@
 # 网站
 title: 锐龙的小窝
 subtitle: ''
-description: '锐冰温馨的小窝~'
+description: '锐冰的个人博客'
 keywords: SharpIce,FurryRbl,Furry,Blog,锐冰龙,锐冰,博客,个人博客,小窝,温馨的小窝
 author: SharpIce
 language: zh-CN
@@ -120,7 +120,7 @@ feed:
     content_limit: 256
     content_limit_delim: ' '
     order_by: -date
-    icon: /favicon.webp
+    icon: /favicon.png
     autodiscovery: true
     template:
 
