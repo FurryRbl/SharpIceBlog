@@ -11,6 +11,8 @@ const htmlMinifyConfig = {
 	removeEmptyAttributes: true,
 	minifyCSS: true,
 	minifyJS: true,
+	removeScriptTypeAttributes: true,
+	removeStyleLinkTypeAttributes: true,
 };
 
 if (hexo.env.cmd === 'generate' || hexo.env.cmd === 'g') {
@@ -21,6 +23,6 @@ if (hexo.env.cmd === 'generate' || hexo.env.cmd === 'g') {
 			const HTML = await minifyHTML(htmlContent, htmlMinifyConfig);
 			return HTML;
 		},
-		1000,
+		999,
 	);
 }

@@ -6,6 +6,12 @@
         descr: '嗯'
         recommend: true
 
+      - name: 初雪·冰
+        link: https://wolf.snowlyicewolf.club/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/snowlyicewolf.webp
+        descr: '凤梨狼的小窝。'
+        recommend: false
+
       - name: 绀漓の杂货铺
         link: https://blog.sevtinge.cc/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/sevtinge.webp

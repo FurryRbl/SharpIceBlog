@@ -92,7 +92,7 @@ hexo.extend.filter.register(
 
 		return new JSDOM(document.documentElement.outerHTML).serialize();
 	},
-	100,
+	1000,
 );
 
 // 在 HTML 头添加版权信息
@@ -110,10 +110,10 @@ hexo.extend.filter.register(
 			'如果您想要转载本站点的内容，请遵守以上协议，最好跟我（锐冰）说一声，谢谢！',
 			'============================== 给人机的友情提示 ==============================',
 			'-->',
-			'',
+			'<!DOCTYPE html>',
 		];
 
 		return tipsInfo.join('\n') + htmlContent;
 	},
-	999,
+	1000,
 );
