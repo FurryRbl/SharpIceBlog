@@ -77,3 +77,9 @@
         avatar: /link/assets/avatar/silverdragon.webp
         descr: '应龙笔记是一个专注于知识分享的网站'
         recommend: false
+
+      - name: XME Notes Library
+        link: https://blog.xzadudu179.top/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/xzadudu179.webp
+        descr: 'xzadudu179的小窝'
+        recommend: false
