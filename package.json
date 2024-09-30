@@ -33,6 +33,7 @@
 		"pre": "prettier . --write"
 	},
 	"dependencies": {
+		"browser-sync": "^3.0.3",
 		"hexo": "^7.3.0",
 		"hexo-browsersync": "^0.3.0",
 		"hexo-butterfly-extjs": "^1.4.11",
@@ -55,16 +56,16 @@
 		"@types/jsdom": "^21.1.7",
 		"cssnano": "^7.0.6",
 		"cssnano-preset-advanced": "^7.0.6",
-		"eslint": "^9.10.0",
+		"eslint": "^9.11.1",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.2.1",
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
-		"jsdom": "^25.0.0",
-		"postcss": "^8.4.45",
-		"postcss-preset-env": "^10.0.3",
+		"jsdom": "^25.0.1",
+		"postcss": "^8.4.47",
+		"postcss-preset-env": "^10.0.5",
 		"prettier": "^3.3.3",
-		"terser": "^5.32.0"
+		"terser": "^5.34.1"
 	},
 	"resolutions": {
 		"browser-sync": "^3.0.2 ",
