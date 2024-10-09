@@ -1,15 +1,15 @@
 {
 	"name": "sharpice_blog",
-	"version": "1.0.0",
-	"description": "锐冰的个人博客",
-	"type": "module",
-	"license": "MPL-2.0",
 	"private": true,
+	"type": "module",
+	"version": "1.0.0",
+	"license": "MPL-2.0",
+	"description": "锐冰的个人博客",
+	"homepage": "https://blog.sharpice.top",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/FurryRbl/SharpIceBlog.git"
+		"url": "git+https://github.com/FurryRbl/SharpIceBlog.git"
 	},
-	"homepage": "https://blog.sharpice.top",
 	"bugs": {
 		"url": "https://github.com/FurryRbl/SharpIceBlog/issues"
 	},
@@ -20,6 +20,9 @@
 	},
 	"hexo": {
 		"version": "7.3.0"
+	},
+	"engines": {
+		"node": ">=20"
 	},
 	"browserslist": [
 		"since 2020",
@@ -33,10 +36,9 @@
 		"pre": "prettier . --write"
 	},
 	"dependencies": {
-		"browser-sync": "^3.0.3",
 		"hexo": "^7.3.0",
 		"hexo-browsersync": "^0.3.0",
-		"hexo-butterfly-extjs": "^1.4.11",
+		"hexo-butterfly-extjs": "^1.4.12",
 		"hexo-generator-archive": "^2.0.0",
 		"hexo-generator-category": "^2.0.0",
 		"hexo-generator-feed": "^3.0.0",
@@ -48,7 +50,7 @@
 		"hexo-renderer-pug": "^3.0.0",
 		"hexo-renderer-stylus": "^3.0.1",
 		"hexo-server": "^3.0.0",
-		"hexo-theme-butterfly": "^4.13.0",
+		"hexo-theme-butterfly": "^5.0.0",
 		"hexo-wordcount": "^6.0.1",
 		"markdown-it-multimd-table": "^4.2.3"
 	},
@@ -56,14 +58,14 @@
 		"@types/jsdom": "^21.1.7",
 		"cssnano": "^7.0.6",
 		"cssnano-preset-advanced": "^7.0.6",
-		"eslint": "^9.11.1",
+		"eslint": "^9.12.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.2.1",
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
 		"jsdom": "^25.0.1",
 		"postcss": "^8.4.47",
-		"postcss-preset-env": "^10.0.5",
+		"postcss-preset-env": "^10.0.6",
 		"prettier": "^3.3.3",
 		"terser": "^5.34.1"
 	},

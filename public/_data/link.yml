@@ -83,3 +83,9 @@
         avatar: /link/assets/avatar/xzadudu179.webp
         descr: 'xzadudu179的小窝'
         recommend: false
+
+      - name: 泛泛的小窝
+        link: https://sothx.com/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/sothx.webp
+        descr: '这里是泛泛，一枚工作了五年的Web开发工程师。时而埋头苦干，时而日常摆烂。'
+        recommend: false

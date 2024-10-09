@@ -1,5 +1,6 @@
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 
+/** @type {import('eslint').Linter.Config[]} */
 export default [
 	eslintPluginPrettierRecommended,
 	{
@@ -12,6 +13,6 @@ export default [
 		rules: {
 			eqeqeq: ['error', 'always'],
 		},
-		ignores: ['node_modules'],
+		ignores: ['node_modules', '/build'],
 	},
 ];
