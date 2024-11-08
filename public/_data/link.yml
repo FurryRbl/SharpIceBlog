@@ -1,6 +1,6 @@
 - class_name: 朋友们
   link_list:
-      - name: 白山白墨
+      - name: 白墨
         link: https://iy.ink/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/iy.webp
         descr: '嗯'
@@ -12,7 +12,7 @@
         descr: '凤梨狼的小窝。'
         recommend: false
 
-      - name: 绀漓の杂货铺
+      - name: 绀漓
         link: https://blog.sevtinge.cc/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/sevtinge.webp
         descr: '这里是绀漓的杂货铺。看起来好像没人在这里，要不然偷一块面包？'
@@ -36,7 +36,7 @@
         descr: '一同畅游代码的海洋，感受极客世界的无限可能。'
         recommend: false
 
-      - name: 西西のBlog
+      - name: 西西
         link: https://xxand.cc/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/xxand.webp
         descr: '嘻嘻西西CC吸吸'
@@ -48,7 +48,7 @@
         descr: '光阴如梦，昨日随风'
         recommend: false
 
-      - name: F_Qilin的小窝
+      - name: F_Qilin
         link: https://blog.fqilin.top/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/fqilin.webp
         descr: '一个小小的个人博客'
@@ -66,7 +66,7 @@
         descr: '憨憨'
         recommend: false
 
-      - name: 飞羽的小窝
+      - name: 飞羽
         link: https://zoxoy.club/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/zoxoy.webp
         descr: '一个菜鸡的博客'
@@ -84,14 +84,34 @@
         descr: 'xzadudu179的小窝'
         recommend: false
 
-      - name: 泛泛的小窝
+      - name: 泛泛
         link: https://sothx.com/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/sothx.webp
         descr: '这里是泛泛，一枚工作了五年的Web开发工程师。时而埋头苦干，时而日常摆烂。'
         recommend: false
 
-      - name: 洺渊的小窝
+      - name: 洺渊
         link: https://blog.fmyron.com/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/fmyron.webp
         descr: '不知道写什么，那就owo一下~'
         recommend: false
+
+      - name: 黑历
+        link: https://heili.tech/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/heili.webp
+        descr: '黑历の鸽子窝'
+        recommend: false
+
+      - name: Dian_Jiao
+        link: https://dian-jiao.github.io/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/dian-jiao.webp
+        descr: 'A kitten carved from the wood of a white tree'
+        recommend: false
+
+- class_name: 组织
+  link_list:
+      - name: FurDevsCN
+        link: https://furdevs.cn/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/FurDevsCN.svg
+        descr: '一个有态度的小动物开发团体'
+        recommend: true
