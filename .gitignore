@@ -8,7 +8,7 @@
 node_modules
 
 # 构建输出
-/build
+/dist
 
 # Hexo 文件
 db.json

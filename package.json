@@ -6,17 +6,15 @@
 	"license": "MPL-2.0",
 	"description": "锐冰的个人博客",
 	"homepage": "https://blog.sharpice.top",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/FurryRbl/SharpIceBlog.git"
-	},
+	"repository": "github:FurryRbl/SharpIceBlog",
 	"bugs": {
+		"email": "SharpIce@SharpIce.top",
 		"url": "https://github.com/FurryRbl/SharpIceBlog/issues"
 	},
 	"author": {
 		"name": "SharpIce",
-		"email": "VupRbl@163.com",
-		"url": "https://SharpIce.top"
+		"url": "https://SharpIce.top",
+		"email": "SharpIce@SharpIce.top"
 	},
 	"hexo": {
 		"version": "7.3.0"
@@ -24,6 +22,16 @@
 	"engines": {
 		"node": ">=20"
 	},
+	"funding": [
+		{
+			"type": "ko-fi",
+			"url": "https://ko-fi.com/SharpIce"
+		},
+		{
+			"type": "ifdian",
+			"url": "https://ifdian.net/@SharpIce"
+		}
+	],
 	"browserslist": [
 		"since 2020",
 		"not dead"
@@ -33,12 +41,12 @@
 		"clean": "hexo clean",
 		"lint": "eslint --fix .",
 		"build": "hexo generate",
-		"pre": "prettier . --write"
+		"format": "prettier . --write"
 	},
 	"dependencies": {
 		"hexo": "^7.3.0",
 		"hexo-browsersync": "^0.3.0",
-		"hexo-butterfly-extjs": "1.4.15",
+		"hexo-butterfly-extjs": "^1.4.15",
 		"hexo-generator-archive": "^2.0.0",
 		"hexo-generator-category": "^2.0.0",
 		"hexo-generator-feed": "^3.0.0",

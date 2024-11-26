@@ -2,11 +2,10 @@
 title: 锐龙的小窝
 subtitle: ''
 description: '锐冰的个人博客'
-keywords: SharpIce,FurryRbl,Furry,Blog,锐冰龙,锐冰,博客,个人博客,小窝,温馨的小窝
+keywords: SharpIce, FurryRbl, Furry, Blog, 锐冰龙, 锐冰, 博客, 个人博客, 文章, 小窝, 温馨的小窝
 author: SharpIce
 language: zh-CN
 timezone: 'Asia/Shanghai'
-email: 'VupRbl@163.com'
 
 # 网址
 url: https://blog.sharpice.top
@@ -19,7 +18,7 @@ pretty_urls:
 
 # 目录
 source_dir: public
-public_dir: build
+public_dir: dist
 tag_dir: tags
 archive_dir: archives
 category_dir: categories

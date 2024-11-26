@@ -20,7 +20,7 @@ copyright_info: # 【可选】文章版权模块的版权声明文字
 mathjax: # 【可选】显示mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
 katex: # 【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
 aplayer: # 【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
-highlight_shrink: # 	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
+highlight_shrink: # 【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
 aside: # 【可选】显示侧边栏 (默认 true)
 abcjs: # 【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
 ---

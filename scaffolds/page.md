@@ -3,7 +3,7 @@ title: { { title } }
 date: { { date } }
 type: # 【必需】标签、分类和友情链接三个页面需要配置
 updated: # 【可选】页面更新日期
-comments: # 【可选】显示页面评论模块 (默认 true)
+comments: false # 【可选】显示页面评论模块 (默认 true)
 description: # 【可选】页面描述
 keywords: # 【可选】页面关键字
 top_img: # 【可选】页面顶部图片

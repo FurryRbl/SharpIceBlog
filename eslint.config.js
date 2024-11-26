@@ -6,13 +6,14 @@ export default [
 	{
 		languageOptions: {
 			parserOptions: {
-				ecmaVersion: 14,
 				sourceType: 'module',
+				ecmaVersion: 'latest',
 			},
 		},
 		rules: {
 			eqeqeq: ['error', 'always'],
+			'prettier/prettier': ['off', 'always'],
 		},
-		ignores: ['node_modules', '/build'],
+		ignores: ['node_modules', '/dist'],
 	},
 ];

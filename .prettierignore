@@ -1,5 +1,11 @@
 # Node 模块
 /node_modules
 
+# pnpm
+/pnpm-lock.yaml
+
+# Hexo 文件
+db.json
+
 # 构建输出
-/build
+/dist

@@ -5,6 +5,7 @@
 		"source.fixAll.eslint": "explicit"
 	},
 	"markdownlint.config": {
+		"MD025": false,
 		"MD036": false
 	}
 }

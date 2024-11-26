@@ -6,16 +6,28 @@
         descr: '嗯'
         recommend: true
 
-      - name: 初雪·冰
-        link: https://wolf.snowlyicewolf.club/?ref=blog.sharpice.top
-        avatar: /link/assets/avatar/snowlyicewolf.webp
-        descr: '凤梨狼的小窝。'
-        recommend: false
+      - name: 泛泛
+        link: https://sothx.com/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/sothx.webp
+        descr: '这里是泛泛，一枚工作了五年的Web开发工程师。时而埋头苦干，时而日常摆烂。'
+        recommend: true
 
       - name: 绀漓
         link: https://blog.sevtinge.cc/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/sevtinge.webp
         descr: '这里是绀漓的杂货铺。看起来好像没人在这里，要不然偷一块面包？'
+        recommend: true
+
+      - name: 飞羽
+        link: https://zoxoy.club/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/zoxoy.webp
+        descr: '一个菜鸡的博客'
+        recommend: true
+
+      - name: 初雪·冰
+        link: https://wolf.snowlyicewolf.club/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/snowlyicewolf.webp
+        descr: '凤梨狼的小窝。'
         recommend: false
 
       - name: Koto
@@ -66,12 +78,6 @@
         descr: '憨憨'
         recommend: false
 
-      - name: 飞羽
-        link: https://zoxoy.club/?ref=blog.sharpice.top
-        avatar: /link/assets/avatar/zoxoy.webp
-        descr: '一个菜鸡的博客'
-        recommend: false
-
       - name: 应龙笔记
         link: https://www.silverdragon.cn/?link=https://blog.sharpice.top&ref=blog.sharpice.top
         avatar: /link/assets/avatar/silverdragon.webp
@@ -82,12 +88,6 @@
         link: https://blog.xzadudu179.top/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/xzadudu179.webp
         descr: 'xzadudu179的小窝'
-        recommend: false
-
-      - name: 泛泛
-        link: https://sothx.com/?ref=blog.sharpice.top
-        avatar: /link/assets/avatar/sothx.webp
-        descr: '这里是泛泛，一枚工作了五年的Web开发工程师。时而埋头苦干，时而日常摆烂。'
         recommend: false
 
       - name: 洺渊
@@ -106,6 +106,12 @@
         link: https://dian-jiao.github.io/?ref=blog.sharpice.top
         avatar: /link/assets/avatar/dian-jiao.webp
         descr: 'A kitten carved from the wood of a white tree'
+        recommend: false
+
+      - name: 胡斯凯
+        link: https://hooskai.top/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/hooskai.webp
+        descr: '胡斯凯的足迹'
         recommend: false
 
 - class_name: 组织

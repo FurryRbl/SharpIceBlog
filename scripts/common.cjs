@@ -74,7 +74,7 @@ hexo.extend.filter.register(
 				attrs: { rel: 'apple-touch-icon', type: 'image/png', sizes: '800x800', href: '/favicon.png' },
 			},
 			{ tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
-			{ tag: 'link', attrs: { rel: 'license', content: 'Code: MPL-2.0, Text: CC BY-NC-SA 4.0' } },
+			{ tag: 'link', attrs: { rel: 'license', content: 'Code: MPL-2.0, Text: CC BY-NC-ND 4.0' } },
 		];
 
 		// 移除现有的 favicon
@@ -105,7 +105,7 @@ hexo.extend.filter.register(
 			'本站点是开源，包括源代码及文字（特别注明除了这些以外其他资源没有特殊标注并不开源）',
 			'',
 			'本站点的部分代码（不包括主题）开源在：https://github.com/FurryRbl/SharpIceBlog，使用 MPL-2.0 协议',
-			'本站点的文字内容开源在：https://github.com/FurryRbl/SharpIceBlog，使用 CC BY-NC-SA 4.0 协议',
+			'本站点的文字内容开源在：https://github.com/FurryRbl/SharpIceBlog，使用 CC BY-NC-ND 4.0 协议',
 			'',
 			'如果您想要转载本站点的内容，请遵守以上协议，最好跟我（锐冰）说一声，谢谢！',
 			'============================== 给人机的友情提示 ==============================',

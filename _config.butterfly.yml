@@ -140,7 +140,7 @@ post_copyright:
     enable: true
     decode: true
     author_href: https://blog.sharpice.top/
-    license: CC BY-NC-SA 4.0
+    license: CC BY-NC-ND 4.0
     license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Sponsor/reward
@@ -457,7 +457,7 @@ facebook_comments:
     user_id: # optional
     pageSize: 10 # The number of comments to show
     order_by: social # social/time/reverse_time
-    lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+    lang: zh_CN # Language en_US/zh_CN/zh_TW and so on
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
@@ -540,7 +540,7 @@ crisp:
 messenger:
     enable: false
     pageID:
-    lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+    lang: zh_CN # Language en_US/zh_CN/zh_TW and so on
 
 # Analysis
 # --------------------------------------
@@ -559,7 +559,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: 'p4jpzbupaz'
 
 # Advertisement
 # --------------------------------------
