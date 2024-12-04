@@ -114,6 +114,12 @@
         descr: '胡斯凯的足迹'
         recommend: false
 
+      - name: Sparrow
+        link: https://blog.sparrowhe.top/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/sparrowhe.webp
+        descr: 'Sparrow 的小博客'
+        recommend: false
+
 - class_name: 组织
   link_list:
       - name: FurDevsCN
