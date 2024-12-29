@@ -120,6 +120,12 @@
         descr: 'Sparrow 的小博客'
         recommend: false
 
+      - name: 渣渣120
+        link: https://zhazha120.cn/?ref=blog.sharpice.top
+        avatar: /link/assets/avatar/zhazha120.webp
+        descr: '也许是一名不合格的全栈开发者'
+        recommend: false
+
 - class_name: 组织
   link_list:
       - name: FurDevsCN
