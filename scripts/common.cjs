@@ -61,8 +61,6 @@ hexo.extend.filter.register(
 		const head = document.querySelector('head');
 
 		const metaTags = [
-			{ tag: 'meta', attrs: { 'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8' } },
-			{ tag: 'meta', attrs: { name: 'title', content: head.querySelector('title').textContent } },
 			{ tag: 'link', attrs: { rel: 'icon', type: 'image/x-icon', sizes: '256x256', href: '/favicon.ico' } },
 			{ tag: 'link', attrs: { rel: 'icon', type: 'image/png', sizes: '800x800', href: '/favicon.png' } },
 			{

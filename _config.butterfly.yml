@@ -10,8 +10,8 @@ menu:
     存档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
-    友谊链接: /link/ || fas fa-link
-    关于我: /about/ || fas fa-heart
+    友谊链接: https://sharpice.top/link || fas fa-link
+    关于我: https://sharpice.top || fas fa-heart
 
 # 代码渲染
 highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false

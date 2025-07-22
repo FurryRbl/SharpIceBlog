@@ -20,7 +20,7 @@
 		"version": "7.3.0"
 	},
 	"engines": {
-		"node": ">=20"
+		"node": ">=22"
 	},
 	"funding": [
 		{
@@ -39,14 +39,13 @@
 	"scripts": {
 		"dev": "hexo server",
 		"clean": "hexo clean",
-		"lint": "eslint --fix .",
 		"build": "hexo generate",
 		"format": "prettier . --write"
 	},
 	"dependencies": {
 		"hexo": "^7.3.0",
 		"hexo-browsersync": "^0.3.0",
-		"hexo-butterfly-extjs": "^1.4.18",
+		"hexo-butterfly-extjs": "^1.4.19",
 		"hexo-generator-archive": "^2.0.0",
 		"hexo-generator-category": "^2.0.0",
 		"hexo-generator-feed": "^3.0.0",
@@ -58,24 +57,21 @@
 		"hexo-renderer-pug": "^3.0.0",
 		"hexo-renderer-stylus": "^3.0.1",
 		"hexo-server": "^3.0.0",
-		"hexo-theme-butterfly": "^5.3.5",
+		"hexo-theme-butterfly": "^5.4.2",
 		"hexo-wordcount": "^6.0.1",
 		"markdown-it-multimd-table": "^4.2.3"
 	},
 	"devDependencies": {
 		"@types/jsdom": "^21.1.7",
-		"cssnano": "^7.0.7",
-		"cssnano-preset-advanced": "^7.0.7",
-		"eslint": "^9.27.0",
-		"eslint-config-prettier": "^10.1.5",
-		"eslint-plugin-prettier": "^5.4.0",
+		"cssnano": "^7.1.0",
+		"cssnano-preset-advanced": "^7.0.8",
 		"hexo-cli": "^4.3.2",
 		"html-minifier-terser": "^7.2.0",
 		"jsdom": "^26.1.0",
-		"postcss": "^8.5.3",
-		"postcss-preset-env": "^10.1.6",
-		"prettier": "^3.5.3",
-		"terser": "^5.39.2"
+		"postcss": "^8.5.6",
+		"postcss-preset-env": "^10.2.4",
+		"prettier": "^3.6.2",
+		"terser": "^5.43.1"
 	},
 	"resolutions": {
 		"browser-sync": "^3.0.2 ",
