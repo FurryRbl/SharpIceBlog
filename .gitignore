@@ -12,3 +12,6 @@ node_modules
 
 # Hexo 文件
 db.json
+
+# Krita
+*.*~
